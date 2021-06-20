@@ -17,8 +17,8 @@ cd $WORKDIR
 rm -rf snap.bak snap-python.bak
 mv -f snap snap.bak
 mv -f snap-python snap-python.bak
-git clone git@github.com:snap-stanford/snap.git
-git clone git@github.com:snap-stanford/snap-python.git
+git clone git@github.com:georgehe4/snap.git
+git clone git@github.com:georgehe4/snap-python.git
 
 # run SWIG, it is required only once
 cd $WORKDIR/snap-python/swig
